@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging.Configuration;
 
 namespace SlackBufferedLogger.Extensions
 {
-    internal static class SlackBufferedLoggerExtensions
+    public static class SlackBufferedLoggerExtensions
     {
         public static ILoggingBuilder AddSlackBufferedLogger(
             this ILoggingBuilder builder)
